@@ -1,0 +1,16 @@
+gymnasium
+stable-baselines3[extra]
+numpy
+fastapi
+uvicorn
+pydantic
+requests
+streamlit
+
+# PyTorch is required by Stable-Baselines3. Specify a compatible version for your system.
+# On many systems `pip install torch` will pick a suitable wheel; for CUDA builds follow
+# instructions at https://pytorch.org/get-started/locally/.
+torch
+
+# Optional: tensorboard for training logs/visualization
+tensorboard
